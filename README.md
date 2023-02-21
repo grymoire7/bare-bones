@@ -1,4 +1,4 @@
-# bare-bones-test
+# bare-bones
 
 This is a sandbox repo for the Git Bare Bones presentation.
 
