@@ -15,7 +15,7 @@ git status
 git pull
 
 # Switch to a newly created branch
-git switch -c TASK-update-repo-metadata
+git switch -c make-initial-tweaks
 
 # Make some changes to README.md
 vi README.md
@@ -30,10 +30,10 @@ git log      # shows the series of pink dots in this branch
 git commit -m “include project status in readme”
 
 # Make another change, add it, commit it
-vi LICENSE.md # new file
+vi CHANGELOG.md # new file
 git add -A
 git status
-git commit -m “add license file”
+git commit -m “add change log file”
 git status
 git log origin/main..HEAD # show commits that have not been pushed
 
